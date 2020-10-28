@@ -1,5 +1,6 @@
 import random
 import string
+import sys
 import createfile as cf
 
 def str_chinese():
@@ -52,7 +53,7 @@ def str_total(filename):
     pass
 
 if __name__ == "__main__":
-    str_test_filename = "password_dataset.csv"
+    str_test_filename = "/00003.PASSWORD/PASSWORD_GOOD.csv"
     str_total(str_test_filename)
     #print(str_compose('chinese',10))
     #print(str_compose('korean',10))
