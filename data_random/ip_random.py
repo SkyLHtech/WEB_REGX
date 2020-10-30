@@ -20,7 +20,10 @@ def ipset_creation(num , filename):
         cf.createfile(filename, ip)
 
 if __name__ == "__main__":
-    ipfile_name = "/00001.IP/IP_GOOD.csv"
-    ipset_creation(1000,ipfile_name)
+    num = 1000
+    ip_good_name = "/00001.IP/G.csv"
+    ipset_creation(num,ip_good_name)
+    ip_bad_name = "/00001.IP/NG.csv"
+    ipset_creation(num,ip_bad_name)
     pass
 

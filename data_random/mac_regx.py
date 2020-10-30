@@ -23,6 +23,6 @@ def macset_creation(num,filename):
         cf.createfile(filename, mac)
 
 if __name__ == "__main__":
-    macfile_name = "/00002.MAC/MAC_GOOD.csv"
+    macfile_name = "/00002.MAC/G.csv"
     macset_creation(1000,macfile_name)
     pass
